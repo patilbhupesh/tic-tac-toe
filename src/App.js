@@ -81,10 +81,6 @@ const App = () => {
     setStepNumber(newHistory.length);
   };
 
-  const jumpTo = (step) => {
-    setStepNumber(step);
-  };
-
   const status = winner
     ? `Winner player: ${winner}`
     : `Next player: ${xIsNext ? "X" : "O"}`;
